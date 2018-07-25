@@ -18,7 +18,7 @@ readme = open('README.rst').read()
 
 setup(
     name='spectral',
-    version='0.2.0',
+    version='0.2.1',
     description=('Python package for extracing spectral features from speech.'),
     long_description=readme,
     author='Maarten Versteegh',
