@@ -158,7 +158,7 @@ class Spectral(object):
             self.to_hertz(np.linspace(lowerf,
                                       upperf,
                                       self.nfilt+2))/self.fs).astype(np.uint)
-        for filt in xrange(self.nfilt):
+        for filt in range(self.nfilt):
             left = edges[filt]
             center = edges[filt+1]
             right = edges[filt+2]
